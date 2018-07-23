@@ -24,8 +24,8 @@ Add the following line to the `nginx` `volumes` portion of `docker-compose.yml`.
 ...and be sure to park a copy of `blacklist.conf` in ${PROJECT_PATH} as indicated in the line above.
 
 #### MM History
-Added the $bad_client if statement (above) to a server block at the end of blacklist.conf.  
-Added "Semrush", "MJ12bot" and "AhrefsBot" as blacklisted agents.
+    Added the $bad_client if statement (above) to a server block at the end of blacklist.conf.  
+    Added "Semrush", "MJ12bot" and "AhrefsBot" as blacklisted agents.
 
 ### Configure
 
