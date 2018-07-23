@@ -14,6 +14,10 @@
       return 403;
     }
     ```
+    
+### MM Modifications
+Added the $bad_client if statement (above) to a server block at the end of blacklist.conf.  
+Added "Semrush", "MJ12bot" and "AhrefsBot" as blacklisted agents.
 
 ### Configure
 
